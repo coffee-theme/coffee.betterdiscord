@@ -1,0 +1,26 @@
+//META{"name":"coffee-theme","description":"coffee is nice","author":"Celestia Kai","version":"1.0"}*//
+
+:root {
+    --highlight: var(--text-color);
+    --interactive-normal: #ebdbb2;
+    --text-link: #87afaf;
+    --text-normal: #ebdbb2;
+    --channels-default: #ebdbb2;
+    --channeltextarea-background: #363330;
+    --deprecated-panel-background: #000000;
+    --scrollbar-thin-thumb: #262220;
+    --scrollbar-auto-thumb: #ebdbb2;
+    --scrollbar-auto-scrollbar-color-track: #262220;
+    --scrollbar-auto-track: #363330;
+    --header-primary: #ebdbb2;
+    --header-secondary: #ebdbb2;
+    --textbox-markdown-syntax: #363330;
+    --background-primary: #262220;
+    --background-secondary: #262220;
+    --background-tertiary: #262220;
+}
+
+section[aria-label="User area"],
+section[aria-label="User area"] *{
+    background-color: #262220 !important;
+}
