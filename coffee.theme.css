@@ -1,4 +1,4 @@
-//META{"name":"coffee-theme","description":"coffee is nice","author":"Celestia Kai","version":"1.0"}*//
+//META{"name":"coffee-theme","description":"coffee is nice","author":"Celestia Kai","version":"1.1"}*//
 
 :root {
     --highlight: var(--text-color);
@@ -20,7 +20,16 @@
     --background-tertiary: #262220;
 }
 
+@font-face {
+}   /* leave this */
+
+div {
+    font-family: monospace;
+    font-weight: normal;
+}
+
 section[aria-label="User area"],
 section[aria-label="User area"] *{
     background-color: #262220 !important;
 }
+
